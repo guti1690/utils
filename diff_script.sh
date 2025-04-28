@@ -1,7 +1,7 @@
 #!/bin/bash
 
 PROVIDER="openrouter/"
-MODEL="google/gemini-2.5-pro-exp-03-25:free"
+MODEL="google/gemini-2.5-pro-exp-03-25"
 script_dir="$(cd "$(dirname "$0")" && pwd)"
 
 # Parse command line arguments
