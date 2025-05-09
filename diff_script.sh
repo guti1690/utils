@@ -45,4 +45,6 @@ aider \
     --no-stream \
     --dry-run \
     --no-git \
-    --no-show-model-warnings
+    --no-show-model-warnings \
+    --no-show-release-notes \
+    --no-check-update
