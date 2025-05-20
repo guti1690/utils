@@ -1,7 +1,10 @@
 #!/bin/bash
 
 PROVIDER="openrouter/"
-MODEL="google/gemini-2.5-pro-exp-03-25"
+MODEL="deepseek/deepseek-r1:free"
+# MODEL="google/gemini-2.0-flash-001"
+# MODEL="google/gemini-2.5-pro-preview"
+
 script_dir="$(cd "$(dirname "$0")" && pwd)"
 
 # Parse command line arguments
