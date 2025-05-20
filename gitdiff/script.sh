@@ -41,10 +41,10 @@ cd "$script_dir"
 aider \
     --model "$PROVIDER$MODEL" \
     --cache-prompts \
-    --message="/ask Generate PR description from diff.log using INSTRUCTIONS.MD and PR_TEMPLATE.MD (#$ticket_number)" \
-    --read INSTRUCTIONS.MD \
-    --read PR_TEMPLATE.MD \
-    --read diff.log \
+    --message="/ask Generate PR description from diff.log using instructions.md and template.md (#$ticket_number)" \
+    --read "$script_dir/instructions.md" \
+    --read "$script_dir/template.md" \
+    --read "$script_dir/diff.log" \
     --no-stream \
     --dry-run \
     --no-git \
