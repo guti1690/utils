@@ -8,8 +8,8 @@ MODEL="deepseek/deepseek-r1:free"
 script_dir="$(cd "$(dirname "$0")" && pwd)"
 
 # Parse command line arguments
-project="appsumo-next"  # Default project
-branch="develop"  # Default branch
+project="protiv-v2"  # Default project
+branch="main"  # Default branch
 while getopts "p:b:" opt; do
   case $opt in
     p)
