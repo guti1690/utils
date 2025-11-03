@@ -1,7 +1,7 @@
 #!/bin/bash
 
 PROVIDER="openrouter/"
-MODEL="deepseek/deepseek-chat-v3.1:free"
+MODEL="qwen/qwen3-235b-a22b:free"
 # MODEL="google/gemini-2.0-flash-001"
 # MODEL="google/gemini-2.5-pro-preview"
 

@@ -1,9 +1,9 @@
 #!/bin/bash
 
 PROVIDER="openrouter/"
-MODEL="deepseek/deepseek-r1:free"
+# MODEL="deepseek/deepseek-r1:free"
 # MODEL="google/gemini-2.0-flash-001"
-# MODEL="google/gemini-2.5-pro-preview"
+MODEL="google/gemini-2.5-pro-preview"
 
 script_dir="$(cd "$(dirname "$0")" && pwd)"
 
