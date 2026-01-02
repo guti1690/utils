@@ -1,14 +1,12 @@
 #!/bin/bash
 
 PROVIDER="openrouter/"
-# MODEL="deepseek/deepseek-r1:free"
-# MODEL="google/gemini-2.0-flash-001"
-MODEL="google/gemini-2.5-pro-preview"
+MODEL="google/gemini-2.5-flash"
 
 script_dir="$(cd "$(dirname "$0")" && pwd)"
 
 # Parse command line arguments
-project="protiv-v2"  # Default project
+project="protiv-v2-mobile"  # Default project
 branch="main"  # Default branch
 while getopts "p:b:" opt; do
   case $opt in

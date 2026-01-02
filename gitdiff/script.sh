@@ -1,14 +1,14 @@
 #!/bin/bash
 
 PROVIDER="openrouter/"
-MODEL="qwen/qwen3-235b-a22b:free"
-# MODEL="google/gemini-2.0-flash-001"
-# MODEL="google/gemini-2.5-pro-preview"
+MODEL="google/gemini-2.5-flash"
+# MODEL="x-ai/grok-code-fast-1"
+# MODEL="qwen/qwen3-235b-a22b:free"
 
 script_dir="$(cd "$(dirname "$0")" && pwd)"
 
 # Parse command line arguments
-project="protiv-v2"  # Default project
+project="protiv-v2-mobile"  # Default project
 branch="main"  # Default branch
 while getopts "p:b:" opt; do
   case $opt in
