@@ -1,7 +1,8 @@
 #!/bin/bash
 
 PROVIDER="openrouter/"
-MODEL="google/gemini-2.5-flash"
+MODEL="mistralai/devstral-2512:free"
+# MODEL="google/gemini-2.5-flash"
 
 script_dir="$(cd "$(dirname "$0")" && pwd)"
 
